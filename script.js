@@ -47,6 +47,54 @@ const roomsData = [
       { src: 'images/Room-103/IMG_5465.jpeg', alt: 'Room 103 — warm bedding and wooden walls' },
       { src: 'images/Room-103/IMG_5466.jpeg', alt: 'Room 103 — window overlooking the Singalila Ridge' }
     ]
+  },
+  {
+    id: 'room-301',
+    number: '301',
+    name: 'Attic Family Suite',
+    tagline: 'Spacious attic room with wooden charm and mountain views',
+    description: 'A beautifully finished attic suite on the third floor with sloped wooden ceilings, warm interiors, and multiple beds. The cosy mountain cabin feel makes it perfect for families or groups looking for a memorable Himalayan stay.',
+    amenities: ['Mountain View', '3rd Floor', 'Attached Bath', 'Hot Water', 'Extra Blankets', 'Room Heater', 'Wi-Fi'],
+    price: 6800,
+    priceNote: 'per night · includes breakfast',
+    capacity: 4,
+    images: [
+      { src: 'images/Room-301/IMG_5489.jpeg', alt: 'Room 301 — attic suite with twin beds and wooden interiors' },
+      { src: 'images/Room-301/IMG_5490.jpeg', alt: 'Room 301 — warm wooden ceiling and cosy bedding' },
+      { src: 'images/Room-301/IMG_5492.jpeg', alt: 'Room 301 — room interior with mountain light' }
+    ]
+  },
+  {
+    id: 'room-302',
+    number: '302',
+    name: 'Panorama Corridor Suite',
+    tagline: 'Modern interiors with panoramic mountain windows',
+    description: 'A stylish third-floor suite at the end of a beautifully panelled corridor. Large windows frame sweeping views of the surrounding hills. Modern wooden finishes with a warm, inviting atmosphere.',
+    amenities: ['Panoramic View', '3rd Floor', 'Attached Bath', 'Hot Water', 'Extra Blankets', 'Room Heater', 'Wi-Fi'],
+    price: 6800,
+    priceNote: 'per night · includes breakfast',
+    capacity: 4,
+    images: [
+      { src: 'images/Room-302/IMG_5488.jpeg', alt: 'Room 302 — elegant corridor leading to the suite' },
+      { src: 'images/Room-302/IMG_5494.jpeg', alt: 'Room 302 — modern interior with wooden panelling' },
+      { src: 'images/Room-302/IMG_5499.jpeg', alt: 'Room 302 — suite interior with warm lighting' }
+    ]
+  },
+  {
+    id: 'room-309',
+    number: '309',
+    name: 'Hillside View Room',
+    tagline: 'Bright and airy with sweeping hillside views',
+    description: 'A bright room on the third floor with a clean, modern interior and a corridor window framing misty mountain views. Wooden panelling and natural light create a calm retreat after a day of trekking.',
+    amenities: ['Hillside View', '3rd Floor', 'Attached Bath', 'Hot Water', 'Extra Blankets', 'Room Heater', 'Wi-Fi'],
+    price: 6300,
+    priceNote: 'per night · includes breakfast',
+    capacity: 3,
+    images: [
+      { src: 'images/Room-309/IMG_5486.jpeg', alt: 'Room 309 — corridor with mountain view window' },
+      { src: 'images/Room-309/IMG_5495.jpeg', alt: 'Room 309 — cosy interior with wooden finishes' },
+      { src: 'images/Room-309/IMG_5498.jpeg', alt: 'Room 309 — bright room with natural light' }
+    ]
   }
 ];
 
@@ -96,6 +144,8 @@ const menuData = [
 ];
 
 const galleryData = [
+  { src: 'images/3f61b79d-e8fc-422c-ad11-22324594c624.jpeg', alt: 'GreenHill Paradise hotel with prayer flags and mani wall' },
+  { src: 'images/45ff5f77-9a38-4574-b77a-c56ab04956d5.jpeg', alt: 'Prayer flags and mani stones on the ridge at Tumling' },
   { src: 'images/IMG_5457.jpeg', alt: 'Panoramic winter snowscape over Tumling ridge' },
   { src: 'images/IMG_5455.jpeg', alt: 'Snow-covered hills with cloud sea' },
   { src: 'images/IMG_5453.jpeg', alt: 'Prayer flags in deep snow' },

@@ -11,7 +11,7 @@ module.exports = async function handler(req, res) {
   }
 
   const db = getDb();
-  const roomIds = roomId ? [roomId] : ['room-101', 'room-102', 'room-103'];
+  const roomIds = roomId ? [roomId] : ['room-101', 'room-102', 'room-103', 'room-301', 'room-302', 'room-309'];
 
   try {
     const availability = {};

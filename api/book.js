@@ -63,6 +63,9 @@ module.exports = async function handler(req, res) {
         'room-101': 'Room 101 — Valley View Family Room',
         'room-102': 'Room 102 — Ridge View Room',
         'room-103': 'Room 103 — Kanchenjunga View Room',
+        'room-301': 'Room 301 — Attic Family Suite',
+        'room-302': 'Room 302 — Panorama Corridor Suite',
+        'room-309': 'Room 309 — Hillside View Room',
       };
       const text = `🏨 New Booking!\n\nGuest: ${name}\nEmail: ${email}\nRoom: ${roomNames[roomId] || roomId}\nCheck-in: ${checkin}\nCheck-out: ${checkout}\nGuests: ${guests || '1'}\n${message ? 'Notes: ' + message : ''}`;
 
