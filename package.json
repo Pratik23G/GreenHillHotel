@@ -1,0 +1,12 @@
+{
+  "name": "greenhill-paradise",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GreenHill Paradise — Booking system with Vercel backend",
+  "scripts": {
+    "setup-db": "node scripts/setup-db.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.0"
+  }
+}

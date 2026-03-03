@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en" style="color-scheme: light;">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b1a0e" />
+  <title>GreenHill Paradise — Tumling, Darjeeling Hills</title>
+  <meta name="description" content="A mountain homestay at 10,000 ft in the Singalila Ridge. Sunrise over Kanchenjunga, snow, momos, and genuine Himalayan hospitality." />
+  <link rel="icon" type="image/png" href="images/GreenHill.png" />
+  <link rel="apple-touch-icon" href="images/GreenHill.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<nav class="nav" id="nav" aria-label="Main navigation">
+  <a href="#" class="nav-logo" aria-label="GreenHill Paradise home"><img src="images/GreenHill.png" alt="GreenHill Paradise" class="nav-logo-img" /></a>
+  <ul class="nav-links" role="list">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experiences">Experiences</a></li>
+    <li><a href="#rooms">Rooms</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#contact" class="nav-cta">Book Now</a></li>
+  </ul>
+  <button class="nav-hamburger" id="navHamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileMenu">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M3 6h18M3 12h18M3 18h18" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Navigation">
+  <button class="mobile-close" id="mobileClose" aria-label="Close navigation">×</button>
+  <a href="#about" onclick="closeMobileMenu()">About</a>
+  <a href="#experiences" onclick="closeMobileMenu()">Experiences</a>
+  <a href="#rooms" onclick="closeMobileMenu()">Rooms</a>
+  <a href="#gallery" onclick="closeMobileMenu()">Gallery</a>
+  <a href="#menu" onclick="closeMobileMenu()">Menu</a>
+  <a href="#contact" onclick="closeMobileMenu()">Book Now</a>
+</div>
+
+<main id="main-content">
+
+  <!-- HERO -->
+  <section class="hero" aria-label="Welcome to GreenHill Paradise">
+    <div class="hero-reel" aria-hidden="true">
+      <div class="hero-reel-slide on" style="background-image:url('images/IMG_2492.jpeg')"></div>
+      <div class="hero-reel-slide" style="background-image:url('images/IMG_5457.jpeg')"></div>
+      <div class="hero-reel-slide" style="background-image:url('images/IMG_2491.jpeg')"></div>
+      <div class="hero-reel-slide" style="background-image:url('images/IMG_5463.jpeg')"></div>
+    </div>
+    <div class="hero-body">
+      <p class="hero-kicker">Tumling · Darjeeling Hills · 10,000&nbsp;ft</p>
+      <h1 class="hero-title">GreenHill<br><em>Paradise</em></h1>
+      <p class="hero-desc">Where the Himalayas meet the clouds — a family homestay above the world, rooted in culture, warmth, and wild beauty.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">Book Your Stay</a>
+        <a href="#about" class="btn-ghost">Discover More</a>
+      </div>
+    </div>
+    <div class="hero-dots" role="tablist" aria-label="Slideshow navigation">
+      <button class="hero-dot on" role="tab" aria-selected="true" aria-label="Slide 1" data-slide="0"></button>
+      <button class="hero-dot" role="tab" aria-selected="false" aria-label="Slide 2" data-slide="1"></button>
+      <button class="hero-dot" role="tab" aria-selected="false" aria-label="Slide 3" data-slide="2"></button>
+      <button class="hero-dot" role="tab" aria-selected="false" aria-label="Slide 4" data-slide="3"></button>
+    </div>
+    <span class="hero-scroll-hint" aria-hidden="true">Scroll</span>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-strip" aria-hidden="true">
+    <div class="marquee-track">
+      <span class="marquee-item"><span class="marquee-dot"></span>Sunrise over Kanchenjunga</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>Himalayan Snow in Winter</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>Singalila Ridge Trekking</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>Authentic Nepali Cuisine</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>Prayer Flags &amp; Silence</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>Moonlit Valley Views</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>Cloud Sea at 10,000&nbsp;ft</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>Sunrise over Kanchenjunga</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>Himalayan Snow in Winter</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>Singalila Ridge Trekking</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>Authentic Nepali Cuisine</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>Prayer Flags &amp; Silence</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>Moonlit Valley Views</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>Cloud Sea at 10,000&nbsp;ft</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-media reveal">
+          <img src="images/IMG_5463.jpeg" alt="Vintage Land Rover on the misty mountain road to Tumling, layered Himalayan ridges behind" class="about-media-main" width="600" height="750" loading="lazy" />
+          <img src="images/IMG_2494.jpeg" alt="GreenHill Paradise homestay lit warmly under a full moon" class="about-media-float" width="300" height="225" loading="lazy" />
+          <div class="about-badge" aria-hidden="true">
+            <span class="about-badge-num">10K</span>
+            <span class="about-badge-label">Feet High</span>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <p class="eyebrow">Our Story</p>
+          <h2 class="section-heading">A sanctuary <em>above</em><br>the clouds</h2>
+          <div style="height:1.8rem"></div>
+          <p class="section-body">Perched on the Singalila Ridge at 10,000 feet, GreenHill Paradise is a family-run mountain homestay where the boundary between earth and sky genuinely dissolves. Mornings begin with Kanchenjunga glowing in first light; evenings end watching seas of cloud roll through the valleys below.</p>
+          <p class="section-body" style="margin-top:1rem">We are rooted in Nepali and Lepcha culture — offering home-cooked meals, warm beds, prayer flag-strung views, and a connection to the Himalayas that no resort can manufacture.</p>
+          <div class="about-stats">
+            <div><div class="stat-num">~3&thinsp;hrs</div><div class="stat-label">From NJP Station</div></div>
+            <div><div class="stat-num">360°</div><div class="stat-label">Himalayan Views</div></div>
+            <div><div class="stat-num" data-target="4">0</div><div class="stat-label">Seasons of Beauty</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCES -->
+  <section class="section exp-bg" id="experiences">
+    <div class="container">
+      <div class="exp-header reveal">
+        <div>
+          <p class="eyebrow" style="color:var(--gold)">What Awaits</p>
+          <h2 class="section-heading section-heading--light">Experiences in<br>the <em>Wild</em></h2>
+        </div>
+        <p class="section-body" style="color:rgba(184,204,178,.65);padding-top:.5rem">Every moment here is shaped by the mountains, the mist, and the ancient rhythms of life above the clouds. There is no itinerary that can contain it.</p>
+      </div>
+      <div class="exp-grid reveal" id="expGrid" role="list"></div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <div style="display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:2.5rem;flex-wrap:wrap;gap:1rem" class="reveal">
+        <div>
+          <p class="eyebrow">Through the Lens</p>
+          <h2 class="section-heading">A <em>glimpse</em> of paradise</h2>
+        </div>
+        <p style="font-size:.8rem;color:var(--sage);max-width:260px;line-height:1.7">Click any photo to explore. All images captured on location at Tumling.</p>
+      </div>
+      <div class="gallery-mosaic reveal" role="list" aria-label="Photo gallery — click to enlarge">
+        <div class="g-item g1" role="listitem" tabindex="0" onclick="openLb(0)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openLb(0)}">
+          <img src="images/IMG_5457.jpeg" alt="Panoramic winter snowscape over Tumling ridge with cloud sea below" width="600" height="440" loading="lazy" />
+        </div>
+        <div class="g-item g2" role="listitem" tabindex="0" onclick="openLb(1)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openLb(1)}">
+          <img src="images/IMG_5455.jpeg" alt="Snow-covered hills with clouds pouring through valleys in bright winter sun" width="300" height="220" loading="lazy" />
+        </div>
+        <div class="g-item g3" role="listitem" tabindex="0" onclick="openLb(2)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openLb(2)}">
+          <img src="images/IMG_5453.jpeg" alt="Deep snow and colourful prayer flags on the ridge" width="300" height="220" loading="lazy" />
+        </div>
+        <div class="g-item g4" role="listitem" tabindex="0" onclick="openLb(3)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openLb(3)}">
+          <img src="images/IMG_5456.jpeg" alt="Cloud river filling the valley below the snowline" width="400" height="220" loading="lazy" />
+        </div>
+        <div class="g-item g5" role="listitem" tabindex="0" onclick="openLb(4)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openLb(4)}">
+          <img src="images/IMG_5454.jpeg" alt="Winding mountain road in snow on a clear morning" width="300" height="220" loading="lazy" />
+        </div>
+        <div class="g-item g6" role="listitem" tabindex="0" onclick="openLb(5)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openLb(5)}">
+          <img src="images/IMG_2492.jpeg" alt="Sunset over the Himalayan ridge with prayer flags in foreground" width="400" height="220" loading="lazy" />
+        </div>
+        <div class="g-item g7" role="listitem" tabindex="0" onclick="openLb(6)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openLb(6)}">
+          <img src="images/IMG_2491.jpeg" alt="Deep red and orange sunrise above silhouetted Himalayan skyline" width="400" height="220" loading="lazy" />
+        </div>
+        <div class="g-item g8" role="listitem" tabindex="0" onclick="openLb(7)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openLb(7)}">
+          <img src="images/IMG_2494.jpeg" alt="Homestay glowing warmly under a full moon at night" width="300" height="220" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROOMS -->
+  <section class="section rooms-bg" id="rooms">
+    <div class="container">
+      <div class="rooms-header reveal">
+        <div>
+          <p class="eyebrow" style="color:var(--gold)">Stay With Us</p>
+          <h2 class="section-heading section-heading--light">Our <em>Rooms</em></h2>
+        </div>
+        <p class="section-body" style="color:rgba(184,204,178,.65);padding-top:.5rem">Each room is a warm mountain retreat with views that no photograph can fully capture. Simple comforts, extraordinary surroundings.</p>
+      </div>
+      <div class="budget-filter reveal" id="budgetFilter">
+        <label class="budget-label" for="budgetRange">Filter by budget</label>
+        <div class="budget-slider-wrap">
+          <input type="range" id="budgetRange" min="1000" max="8000" step="500" value="8000" aria-label="Maximum price per night" />
+          <span class="budget-value" id="budgetValue">Up to &#8377;8,000/night</span>
+        </div>
+      </div>
+      <div class="rooms-grid" id="roomsGrid"></div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section reviews-section" id="reviews">
+    <div class="container">
+      <div class="reviews-header reveal">
+        <div>
+          <p class="eyebrow">Guest Stories</p>
+          <h2 class="section-heading">What our <em>guests</em> say</h2>
+        </div>
+        <div class="reviews-badge" id="reviewsBadge">
+          <div class="reviews-rating">
+            <span class="reviews-rating-num"></span>
+            <span class="reviews-rating-stars">★★★★★</span>
+          </div>
+          <span class="reviews-count"></span>
+          <div class="reviews-links">
+            <a href="https://www.google.com/travel/search?q=hotel%20green%20hill%20paradise%20tumling&g2lb=4965990%2C72471280%2C72560029%2C72573224%2C72647020%2C72686036%2C72803964%2C72882230%2C72958624%2C73059275%2C73064764%2C121529350&hl=en-US&gl=us&cs=1&ssta=1&ts=CAEaSQopEicyJTB4MzllNWQxNjBmZmNhZWFkOToweDZmMzJjNGI5ZDk3ZDJiNzQSHBIUCgcI6g8QAxgOEgcI6g8QAxgPGAEyBAgAEAA&qs=CAEyJ0Noa0k5TmIweTUyWHNabHZHZzB2Wnk4eE1XaG1iblI2WTE5dEVBRTgCQgkJdCt92bnEMm9CCQl0K33ZucQybw&ap=KigKEgknJLcjRwc7QBEfu4sROQRWQBISCcfF9I2_CDtAER-7ixZwBFZAugEHcmV2aWV3cw&ictx=111" target="_blank" rel="noopener" class="reviews-google-link">
+              <svg width="16" height="16" viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59a14.5 14.5 0 0 1 0-9.18l-7.98-6.19a24.01 24.01 0 0 0 0 21.56l7.98-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
+              View all reviews
+            </a>
+            <a href="https://www.google.com/travel/search?q=hotel%20green%20hill%20paradise%20tumling&g2lb=4965990%2C72471280%2C72560029%2C72573224%2C72647020%2C72686036%2C72803964%2C72882230%2C72958624%2C73059275%2C73064764%2C121529350&hl=en-US&gl=us&cs=1&ssta=1&ts=CAEaSQopEicyJTB4MzllNWQxNjBmZmNhZWFkOToweDZmMzJjNGI5ZDk3ZDJiNzQSHBIUCgcI6g8QAxgOEgcI6g8QAxgPGAEyBAgAEAA&qs=CAEyJ0Noa0k5TmIweTUyWHNabHZHZzB2Wnk4eE1XaG1iblI2WTE5dEVBRTgCQgkJdCt92bnEMm9CCQl0K33ZucQybw&ap=KigKEgknJLcjRwc7QBEfu4sROQRWQBISCcfF9I2_CDtAER-7ixZwBFZAugEHcmV2aWV3cw&ictx=111" target="_blank" rel="noopener" class="reviews-leave-link btn-primary">
+              Leave a Review
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="reviews-grid reveal" id="reviewsGrid"></div>
+    </div>
+  </section>
+
+  <!-- SEASONS -->
+  <section class="section-sm seasons-bg" id="seasons">
+    <div class="container">
+      <div style="text-align:center;margin-bottom:3.5rem" class="reveal">
+        <p class="eyebrow" style="justify-content:center">Plan Your Visit</p>
+        <h2 class="section-heading">Every season, a different <em>magic</em></h2>
+      </div>
+      <div class="seasons-grid reveal">
+        <div class="season-card">
+          <span class="season-badge">March – May</span>
+          <h3>Spring</h3>
+          <p>Rhododendrons burst crimson along the ridge. Crystal skies reveal Kanchenjunga in full glory. Perfect trekking weather, gentle warmth.</p>
+          <span class="season-tag">Best for Trekking</span>
+        </div>
+        <div class="season-card">
+          <span class="season-badge">June – September</span>
+          <h3>Monsoon</h3>
+          <p>Dramatic mist pours through valleys. Vivid emerald landscapes. A moody, cinematic atmosphere for the adventurous traveller.</p>
+          <span class="season-tag">Dramatic Landscapes</span>
+        </div>
+        <div class="season-card">
+          <span class="season-badge">October – November</span>
+          <h3>Autumn</h3>
+          <p>Post-monsoon skies are crystal-clear. Golden light on the peaks. Arguably the most photogenic season with sweeping 360° views.</p>
+          <span class="season-tag">Peak Photography</span>
+        </div>
+        <div class="season-card">
+          <span class="season-badge">December – February</span>
+          <h3>Winter</h3>
+          <p>Snow blankets the ridge, prayer flags vivid against white. Cosy fireside evenings and the rare magic of deep Himalayan snowfall.</p>
+          <span class="season-tag">Snow &amp; Silence</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="section menu-section" id="menu">
+    <div class="container">
+      <div class="reveal">
+        <p class="eyebrow">Dining</p>
+        <h2 class="section-heading">Taste of the <em>Mountains</em></h2>
+        <p class="section-body" style="margin-top:1rem;max-width:480px">Home-cooked Nepali, Tibetan, and Indian meals crafted from fresh local produce and recipes passed down through generations.</p>
+      </div>
+      <div class="menu-grid reveal" id="menuGrid"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-bg" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <p class="eyebrow">Get in Touch</p>
+          <h2 class="section-heading section-heading--light">Come find us<br><em>above the clouds</em></h2>
+          <div style="height:1.5rem"></div>
+          <p>Whether you're planning a winter snow escape or a spring trek, we'd love to host you. Reach out to check availability and plan your mountain getaway.</p>
+          <ul class="info-list" aria-label="Contact details">
+            <li><span class="info-label">Where</span><span class="info-value">Tumling, Darjeeling District<br>West Bengal — 734&nbsp;427</span></li>
+            <li><span class="info-label">Phone</span><span class="info-value"><a href="tel:+9779818904958">+977 9818904958</a></span></li>
+            <li><span class="info-label">Email</span><span class="info-value"><a href="mailto:info@hotelgreenhillparadise.com">info@hotelgreenhillparadise.com</a></span></li>
+            <li><span class="info-label">Nearest</span><span class="info-value">NJP Railway (~3&nbsp;hrs)<br>Bagdogra Airport (~3.5&nbsp;hrs)</span></li>
+          </ul>
+          <a href="https://wa.me/9779818904958" target="_blank" rel="noopener" class="whatsapp-btn" aria-label="Message us on WhatsApp">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Message Us on WhatsApp
+          </a>
+        </div>
+        <div class="reveal">
+          <form class="contact-form" id="contactForm" novalidate aria-label="Booking enquiry">
+            <div class="form-row">
+              <div class="field" id="fieldName">
+                <label for="guestName">Full Name</label>
+                <input type="text" id="guestName" name="name" placeholder="Your name…" autocomplete="name" required aria-required="true" aria-describedby="nameErr" />
+                <span class="field-error" id="nameErr" role="alert">Please enter your name.</span>
+              </div>
+              <div class="field" id="fieldEmail">
+                <label for="guestEmail">Email Address</label>
+                <input type="email" id="guestEmail" name="email" placeholder="you@example.com" autocomplete="email" spellcheck="false" required aria-required="true" aria-describedby="emailErr" />
+                <span class="field-error" id="emailErr" role="alert">Please enter a valid email address.</span>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="checkin">Check-In Date</label>
+                <input type="date" id="checkin" name="checkin" autocomplete="off" />
+              </div>
+              <div class="field">
+                <label for="checkout">Check-Out Date</label>
+                <input type="date" id="checkout" name="checkout" autocomplete="off" />
+              </div>
+            </div>
+            <div class="field">
+              <label for="guests">Number of Guests</label>
+              <select id="guests" name="guests" autocomplete="off" style="color:rgba(255,255,255,.25)">
+                <option value="" disabled selected>Select…</option>
+                <option value="1">1 Guest</option>
+                <option value="2">2 Guests</option>
+                <option value="3">3 Guests</option>
+                <option value="4">4 Guests</option>
+                <option value="5+">5+ Guests</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="roomPref">Room Preference</label>
+              <select id="roomPref" name="roomPref" autocomplete="off" style="color:rgba(255,255,255,.25)">
+                <option value="" disabled selected>Select a room…</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="message">Special Requests</label>
+              <textarea id="message" name="message" placeholder="Dietary needs, accessibility, anything you'd like us to know…" autocomplete="off"></textarea>
+            </div>
+            <div class="availability-notice" id="availabilityNotice" role="status" aria-live="polite" style="display:none"></div>
+            <button type="submit" class="btn-submit" id="submitBtn">
+              <span class="btn-label">Send Enquiry</span>
+              <span class="spinner" aria-hidden="true"></span>
+            </button>
+          </form>
+          <div class="booking-confirmation" id="bookingConfirmation" style="display:none">
+            <div class="confirmation-icon" aria-hidden="true">&#10003;</div>
+            <h3 class="confirmation-title">Booking Confirmed!</h3>
+            <p class="confirmation-text" id="confirmationText"></p>
+            <a href="#" class="whatsapp-followup-btn" id="whatsappFollowup" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Message Us on WhatsApp
+            </a>
+            <button class="btn-ghost confirmation-new-btn" id="newBookingBtn" style="color:#fff;border-color:rgba(255,255,255,.3)">Make Another Booking</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <a href="#" class="footer-logo" aria-label="GreenHill Paradise — back to top"><img src="images/GreenHill.png" alt="GreenHill Paradise" class="footer-logo-img" /></a>
+    <nav aria-label="Footer navigation">
+      <ul class="footer-nav" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experiences">Experiences</a></li>
+        <li><a href="#rooms">Rooms</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <p class="footer-copy">© 2025 GreenHill Paradise, Tumling, West Bengal. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Room Modal -->
+<div class="room-modal" id="roomModal" role="dialog" aria-modal="true" aria-label="Room details" aria-hidden="true">
+  <div class="room-modal-inner">
+    <button class="rm-close" aria-label="Close room details">×</button>
+    <div class="rm-carousel">
+      <div class="rm-carousel-track"></div>
+      <button class="rm-prev" aria-label="Previous photo">&#8592;</button>
+      <button class="rm-next" aria-label="Next photo">&#8594;</button>
+      <div class="rm-carousel-dots"></div>
+    </div>
+    <div class="rm-details">
+      <span class="rm-room-number"></span>
+      <h2 class="rm-name"></h2>
+      <p class="rm-tagline"></p>
+      <p class="rm-description"></p>
+      <ul class="rm-amenities"></ul>
+      <div class="rm-meta">
+        <div class="rm-price"></div>
+        <div class="rm-capacity"></div>
+      </div>
+      <button class="rm-book-btn btn-primary">Book This Room</button>
+    </div>
+  </div>
+</div>
+
+<!-- Lightbox -->
+<div class="lb" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" aria-hidden="true">
+  <button class="lb-close" id="lbClose" aria-label="Close image viewer">×</button>
+  <button class="lb-prev" id="lbPrev" aria-label="Previous image">&#8592;</button>
+  <img id="lbImg" src="" alt="" width="1200" height="800" />
+  <button class="lb-next" id="lbNext" aria-label="Next image">&#8594;</button>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
